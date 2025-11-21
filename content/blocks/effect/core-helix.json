@@ -1,0 +1,14 @@
+type: CoreBlock
+squareSprite: true
+health: 2500
+size: 4
+itemCapacity: 2500
+unitCapModifier: 12
+requirements: [ lithium/600, solenite/400 ]
+category: effect
+research: {
+  root: true
+  planet: serpulo
+}
+alwaysUnlocked: true
+unitType: gamma

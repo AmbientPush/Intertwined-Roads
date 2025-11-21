@@ -1,0 +1,12 @@
+type: BeamNode
+size: 1
+range: 13
+//laserColor1: E1D200FF
+//laserColor2: C2B82DFF
+category: power
+outputsPower: true
+consumesPower: true
+consumes: { powerBuffered: 500 }
+requirements: [ lithium/2, solenite/1 ]
+research: core-helix
+researchCost: [ lithium/10, solenite/5 ]

@@ -1,0 +1,10 @@
+type: GenericCrafter
+size: 2
+category: crafting
+hasLiquids: true
+hasPower: true
+liquidCapacity: 40
+craftTime: 60
+outputLiquid: hydrogen/0.03333333
+consumes: {}
+requirements: [ lithium/25, solenite/30 ]

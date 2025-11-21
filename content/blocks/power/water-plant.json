@@ -1,0 +1,50 @@
+type: ConsumeGenerator
+size: 2
+category: power
+squareSprite: false
+
+requirements: [ lithium/40, solenite/15 ]
+consumes: { liquids: [ ozone/0.03333333, hydrogen/0.05 ] }
+powerProduction: 2
+outputLiquid: clean-water/0.08333333
+//TODO
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hydrogen
+      alpha: 0.7
+      padding: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ozone
+      alpha: 0.7
+      padding: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: clean-water
+      alpha: 0.7
+      padding: 2
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+research: small-rail-power-node
+researchCost: [ lithium/50, solenite/25 ]
