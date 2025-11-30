@@ -6,6 +6,7 @@ bridgeReplacement: lithium-bridge
 requirements: [ lithium/1 ]
 junctionReplacement: lithium-junction
 
-research: { parent: core-helix }
+research: { parent: core-helix
+}
 researchCost: [ lithium/5
 ] 
