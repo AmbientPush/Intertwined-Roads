@@ -7,4 +7,5 @@ requirements: [ lithium/1 ]
 junctionReplacement: lithium-junction
 
 research: { parent: core-helix }
-researchCost: [ lithium/5 ] 
+researchCost: [ lithium/5
+] 
