@@ -1,0 +1,58 @@
+type: flying
+flying: true
+faceTarget: true
+groundLayer: 40
+shadowElevation: 0.1
+drag: 0.5
+outlineColor: 330624FF
+speed: 4
+rotateSpeed: 2
+accel: 0.5
+health: 150
+armor: 1
+hitSize: 7
+research: core-helix
+engineOffset: 4
+itemCapacity: 20
+lowAltitude: true
+
+buildSpeed: 0.1
+buildRange: 120
+buildBeamOffset: 4
+mineTier: 1
+mineSpeed: 1
+mineRange: 80
+mineBeamOffset: 4
+
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 16
+    sides: 4
+    cooldown: 180
+    regen: 0.5
+    max: 20
+    rotation: 45
+  }
+]
+weapons: [
+  {
+    y: 1.75
+    x: 2.5
+    shootX: 0
+    shootY: 0
+    mirror: true
+    reload: 20
+    bullet: {
+      type: LightningBulletType
+      lightningLength: 8
+      lifetime: 0
+      speed: 0
+      damage: 4
+      lightningColor: FDE26CF
+      pierce: true
+      buildingDamageMultiplier: 0
+      pierceBuilding: false
+    }
+  }
+]

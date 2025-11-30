@@ -1,0 +1,103 @@
+type: flying
+flying: true
+faceTarget: true
+groundLayer: 40
+shadowElevation: 0.1
+drag: 0.15
+outlineColor: 330624FF
+speed: 2
+rotateSpeed: 5
+accel: 0.2
+health: 350
+armor: 3
+hitSize: 7
+research: core-helix
+engineOffset: 7
+itemCapacity: 60
+lowAltitude: true
+
+buildSpeed: 0.5
+buildRange: 180
+buildBeamOffset: 3
+mineTier: 2
+mineSpeed: 1.5
+mineRange: 120
+mineBeamOffset: 3
+
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 48
+    sides: 4
+    cooldown: 120
+    regen: 0.5
+    max: 200
+    rotation: 0
+  }
+  {
+    type: UnitSpawnAbility
+    unit: worker-drone1
+    spawnTime: 600
+    spawnY: -4
+  }
+  {
+    type: RepairFieldAbility
+    activeEffect: {
+      type: WaveEffect
+      colorFrom: FDE26CFF
+      colorTo: C98E2F00
+      sizeFrom: 0
+      sizeTo: 120
+    }
+    healEffect: {
+      type: WaveEffect
+      colorFrom: FDE26CFF
+      colorTo: C98E2F00
+      sizeFrom: 16
+      sizeTo: 0
+    }
+    range: 120
+    reload: 720
+    amount: 1
+  }
+]
+weapons: [
+  {
+    shoot: {
+      type: ShootPattern
+      shots: 2
+      shotDelay: 5
+      firstShotDelay: 0
+    }
+    y: 7
+    x: 2.75
+    shootX: 0
+    shootY: 0
+    mirror: true
+    reload: 45
+    bullet: {
+      type: BasicBulletType
+      lifetime: 35
+      speed: 5
+      damage: 15
+      buildingDamageMultiplier: 0
+      colorFrom: FDE26CFF
+      colorTo: C98E2FFF
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 30
+      fragBullets: 2
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 12
+        damage: 7
+        pierce: true
+        buildingDamageMultiplier: 0
+        pierceBuilding: false
+        lightningColor: FDE26CFF
+      }
+    }
+  }
+]
