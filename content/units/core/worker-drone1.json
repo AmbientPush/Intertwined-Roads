@@ -28,11 +28,11 @@ abilities: [
   {
     type: ForceFieldAbility
     radius: 16
-    sides: 4
+    sides: 6
     cooldown: 180
     regen: 0.5
     max: 20
-    rotation: 45
+    rotation: 60
   }
 ]
 weapons: [

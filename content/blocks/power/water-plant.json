@@ -6,7 +6,7 @@ squareSprite: false
 requirements: [ lithium/40, solenite/15 ]
 consumes: { liquids: [ ozone/0.03333333, hydrogen/0.05 ] }
 powerProduction: 2
-outputLiquid: clean-water/0.08333333
+outputLiquid: steam/0.08333333
 //TODO
 generateEffect: generatespark
 ambientSound: smelter
@@ -21,27 +21,13 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: hydrogen
+      drawLiquid: steam
       alpha: 0.7
       padding: 2
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: ozone
-      alpha: 0.7
-      padding: 2
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: clean-water
-      alpha: 0.7
-      padding: 2
-    }
-    {
-      type: DrawCrucibleFlame
-    }
-    {
-      type: DrawDefault
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }

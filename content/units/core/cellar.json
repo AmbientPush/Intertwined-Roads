@@ -28,11 +28,11 @@ abilities: [
   {
     type: ForceFieldAbility
     radius: 48
-    sides: 4
+    sides: 6
     cooldown: 120
     regen: 0.5
     max: 200
-    rotation: 0
+    rotation: 60
   }
   {
     type: UnitSpawnAbility
