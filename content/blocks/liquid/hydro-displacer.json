@@ -1,0 +1,10 @@
+type: Pump
+size: 2
+category: liquid
+squareSprite: false
+requirements: [ lithium/15, solenite/20 ]
+
+pumpAmount: 0.4
+consumes: { power: 1, liquids: [ hydrogen/0.03333333 ] }
+
+research: core-shard

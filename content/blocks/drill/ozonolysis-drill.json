@@ -1,0 +1,76 @@
+type: BurstDrill
+size: 4
+category: production
+hasLiquids: true
+drillTime: 360
+drillHardnessMultiplier: 150
+hasPower: true
+tier: 2
+shake: 1.5
+itemCapacity: 30
+optinalBoostIntensity: 2.5
+details: Boost: 1.6x
+squareSprite: false
+
+requirements: [
+  lithium/35
+  solenite/25
+]
+
+consumes: {
+  liquid: ozone/0.016666665
+  liquids: {
+    liquids: [
+      hydrogen/0.03333333
+    ]
+    optional: true
+    booster: true
+  }
+}
+
+research: core-helix
+researchCost: [
+  lithium/40
+  solenite/20
+]
+
+drillEffect: [
+  {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 15
+  strokeFrom: 2
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 40
+  }
+  {
+    type: RadialEffect
+    rotationSpacing: 10
+    rotationOffset: 270
+    effectRotationOffset: 0
+    lengthOffset: 2
+    amount: 3
+    effect: {
+      type: ParticleEffect
+      cone: 1
+      line: true
+      colorFrom: 8f8d87
+      colorTo: 6b6a66
+    }
+  }
+]
+
+/*drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -arrow
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}*/
