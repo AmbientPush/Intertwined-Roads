@@ -5,7 +5,7 @@ hasLiquids: true
 drillTime: 360
 drillHardnessMultiplier: 150
 hasPower: true
-tier: 2
+tier: 4
 shake: 2
 itemCapacity: 36
 optinalBoostIntensity: 2.5
