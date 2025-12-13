@@ -7,7 +7,6 @@ hasPower: false
 
 pumpAmount: 0.2
 consumes: {
-  power: 0
   liquids: [
     hydrogen/0.016666665
   ]
