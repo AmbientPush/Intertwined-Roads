@@ -3,8 +3,14 @@ size: 2
 category: liquid
 squareSprite: false
 requirements: [ lithium/15, solenite/20 ]
+hasPower: false
 
-pumpAmount: 0.4
-consumes: { power: 1, liquids: [ hydrogen/0.03333333 ] }
+pumpAmount: 0.2
+consumes: {
+  power: 0
+  liquids: [
+    hydrogen/0.016666665
+  ]
+}
 
 research: core-shard

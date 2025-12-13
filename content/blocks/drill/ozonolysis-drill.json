@@ -38,7 +38,7 @@ drillEffect: [
   {
   type: WaveEffect
   sizeFrom: 0.1
-  sizeTo: 15
+  sizeTo: 32
   strokeFrom: 2
   strokeTo: 0.1
   colorFrom: 8f8d87
@@ -48,7 +48,7 @@ drillEffect: [
   {
     type: RadialEffect
     rotationSpacing: 10
-    rotationOffset: 270
+    rotationOffset: 80
     effectRotationOffset: 0
     lengthOffset: 2
     amount: 3
