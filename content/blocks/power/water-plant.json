@@ -12,7 +12,7 @@ generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
 
-drawer: {
+/*drawer: {
   type: DrawMulti
   drawers: [
     {
@@ -30,7 +30,7 @@ drawer: {
       suffix: -top
     }
   ]
-}
+}*/
 
 research: small-rail-power-node
 researchCost: [ lithium/50, solenite/25 ]

@@ -1,6 +1,8 @@
 type: SteamVent
 variants: 3
 attributes: { xenon: 1 }
+parent: solenite-env-floor-extrusions
+blendGroup: solenite
 /*effectSpacing: 25
 effect:{
     type: MultiEffect

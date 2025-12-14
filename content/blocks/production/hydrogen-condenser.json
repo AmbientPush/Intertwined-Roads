@@ -8,3 +8,4 @@ craftTime: 60
 outputLiquid: hydrogen/0.03333333
 consumes: {}
 requirements: [ lithium/25, solenite/30 ]
+conductivePower: true
