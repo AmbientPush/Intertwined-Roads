@@ -2,7 +2,7 @@ type: BurstDrill
 size: 4
 category: production
 hasLiquids: true
-drillTime: 360
+drillTime: 240
 drillHardnessMultiplier: 150
 hasPower: true
 tier: 4
@@ -10,7 +10,9 @@ shake: 2
 itemCapacity: 36
 optinalBoostIntensity: 2.5
 details: Boost: 1.6x
+arrows: 1
 squareSprite: false
+invertedTime: 240
 
 requirements: [
   lithium/35
