@@ -3,7 +3,6 @@ size: 4
 category: production
 hasLiquids: true
 drillTime: 240
-drillHardnessMultiplier: 150
 hasPower: true
 tier: 4
 shake: 2
@@ -24,7 +23,7 @@ consumes: {
   liquid: ozone/0.016666665
   liquids: {
     liquids: [
-      hydrogen/0.03333333
+      hydrogen/0.03333332
     ]
     optional: true
     booster: true
@@ -44,24 +43,16 @@ drillEffect: [
   sizeTo: 32
   strokeFrom: 2
   strokeTo: 0.1
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
+  colorFrom: D54DB6FF
+  colorTo: D54DB6FF
   lifetime: 40
   }
   {
-    type: RadialEffect
-    rotationSpacing: 10
-    rotationOffset: 80
-    effectRotationOffset: 0
-    lengthOffset: 2
-    amount: 3
-    effect: {
-      type: ParticleEffect
-      cone: 1
-      line: true
-      colorFrom: 8f8d87
-      colorTo: 6b6a66
-    }
+    type: ParticleEffect
+    cone: 15
+    line: true
+    colorFrom: D54DB6FF
+    colorTo: D54DB600
   }
 ]
 

@@ -1,8 +1,8 @@
 type: BeamNode
 size: 1
 range: 13
-//laserColor1: E1D200FF
-//laserColor2: C2B82DFF
+laserColor1: DDB058FF
+laserColor2: 7F4307FF
 category: power
 outputsPower: true
 consumesPower: true
