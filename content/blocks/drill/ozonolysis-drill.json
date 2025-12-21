@@ -11,7 +11,7 @@ optinalBoostIntensity: 2.5
 details: Boost: 1.6x
 arrows: 1
 squareSprite: false
-invertedTime: 240
+invertedTime: 150
 
 requirements: [
   lithium/35
