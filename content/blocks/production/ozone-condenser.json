@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: AttributeCrafter
 size: 2
 category: crafting
 hasLiquids: true
@@ -9,3 +9,7 @@ outputLiquid: ozone/0.03333333
 consumes: {}
 requirements: [ lithium/25, solenite/30 ]
 conductivePower: true
+attribute: ozone
+baseEfficiency: 0
+//minEfficiency: 1
+boostScale: 1
