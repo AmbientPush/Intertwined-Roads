@@ -9,7 +9,7 @@ outputLiquid: ozone/0.03333333
 consumes: {}
 requirements: [ lithium/25, solenite/30 ]
 conductivePower: true
-attribute: ozone
+attribute: ozoneatt
 baseEfficiency: 0
-//minEfficiency: 1
+minEfficiency: 0.1
 boostScale: 1
