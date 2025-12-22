@@ -24,7 +24,7 @@ consumes: {
   liquids: {
     liquids: [
       hydrogen/0.03333332
-//      ozone/0.016666665
+      ozone/0.016666665
     ]
     optional: true
     booster: true
@@ -39,24 +39,24 @@ researchCost: [
 
 drillEffect: [
   {
-  type: WaveEffect
-  sizeFrom: 0
-  sizeTo: 32
-  strokeFrom: 2
-  strokeTo: 0.1
-  colorFrom: F6BABAFF
-  colorTo: 58072FFF
-  lifetime: 40
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 32
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: F6BABAFF
+    colorTo: 58072FFF
+    lifetime: 30
   }
   {
-  type: WaveEffect
-  sizeFrom: 8
-  sizeTo: 40
-  strokeFrom: 1.8
-  strokeTo: 0
-  colorFrom: F6BABAFF
-  colorTo: 58072FFF
-  lifetime: 40
+    type: WaveEffect
+    sizeFrom: 4
+    sizeTo: 36
+    strokeFrom: 1.8
+    strokeTo: 0
+    colorFrom: F6BABAFF
+    colorTo: 58072FFF
+    lifetime: 30
   }
   {
     type: ParticleEffect
@@ -64,7 +64,8 @@ drillEffect: [
     line: true
     colorFrom: F6BABAFF
     colorTo: 58072F00
-    baseRotation: -90
+    baseRotation: 270
+    length: 80
   }
   {
     type: ParticleEffect
@@ -72,6 +73,17 @@ drillEffect: [
     line: true
     colorFrom: F6BABAFF
     colorTo: 58072F00
+    length: 40
+  }
+  {
+    type: ParticleEffect
+    cone: 360
+    line: true
+    colorFrom: F6BABAFF
+    colorTo: 58072F00
+    length: 80
+    baseLength: 20
+    baseRotation: 45
   }
 ]
 
