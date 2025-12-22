@@ -13,3 +13,4 @@ attribute: ozoneatt
 baseEfficiency: 0
 minEfficiency: 0.1
 boostScale: 1
+maxBoost: 5
