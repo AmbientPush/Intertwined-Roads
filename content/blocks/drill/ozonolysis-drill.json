@@ -12,6 +12,7 @@ details: Boost: 1.6x
 arrows: 1
 squareSprite: false
 invertedTime: 150
+drillSoundVolume: 1
 
 requirements: [
   lithium/35
@@ -38,7 +39,7 @@ researchCost: [
 ]
 
 drillEffect: [
-/*  {
+  {
     type: WaveEffect
     sizeFrom: 0
     sizeTo: 32
@@ -57,33 +58,23 @@ drillEffect: [
     colorFrom: F6BABAFF
     colorTo: 58072FFF
     lifetime: 30
-  }*/
+  }
   {
     type: ParticleEffect
     cone: 15
     line: true
     colorFrom: F6BABAFF
     colorTo: 58072F00
-    baseRotation: 270
+    baseRotation: 90
     length: 80
   }
-/*  {
+  {
     type: ParticleEffect
     cone: 360
     line: true
     colorFrom: F6BABAFF
     colorTo: 58072F00
     length: 40
-  }*/
-  {
-    type: ParticleEffect
-    cone: 360
-    line: true
-    colorFrom: ffffffff
-    colorTo: ffffffff
-    length: 80
-    baseLength: 20
-    baseRotation: 45
   }
 ]
 
