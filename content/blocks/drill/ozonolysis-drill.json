@@ -64,7 +64,14 @@ drillEffect: [
     line: true
     colorFrom: F6BABAFF
     colorTo: 58072F00
-    offset: -90
+    baseRotation: -90
+  }
+  {
+    type: ParticleEffect
+    cone: 360
+    line: true
+    colorFrom: F6BABAFF
+    colorTo: 58072F00
   }
 ]
 
