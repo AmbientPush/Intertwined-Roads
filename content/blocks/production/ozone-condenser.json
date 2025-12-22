@@ -12,5 +12,5 @@ conductivePower: true
 attribute: ozoneatt
 baseEfficiency: 0
 minEfficiency: 0.1
-boostScale: 1
+boostScale: 0.25
 maxBoost: 5
