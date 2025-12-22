@@ -1,4 +1,4 @@
 type: AttributeCrafter
 buildVisibility: debugOnly
 inEditor: false
-attribute: ozoneatt
+attribute: ozone

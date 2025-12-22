@@ -5,11 +5,11 @@ hasLiquids: true
 hasPower: true
 liquidCapacity: 40
 craftTime: 60
-outputLiquid: ozone/0.03333333
+outputLiquid: ozone/0.06666667
 consumes: {}
 requirements: [ lithium/25, solenite/30 ]
 conductivePower: true
-attribute: ozoneatt
+attribute: ozone
 baseEfficiency: 0
 minEfficiency: 0.1
 boostScale: 0.25

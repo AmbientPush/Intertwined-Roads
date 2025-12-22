@@ -1,5 +1,5 @@
 type: Floor
 variants: 4
 attributes: {
-  ozoneatt: 1
+  ozone: 1
 }
