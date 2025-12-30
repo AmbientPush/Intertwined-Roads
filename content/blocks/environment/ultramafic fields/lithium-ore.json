@@ -1,3 +1,4 @@
 type: OreBlock
 itemDrop: lithium
 variants: 3
+wallOre: true
