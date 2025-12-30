@@ -11,7 +11,7 @@ details: Boost: 1.6x
 squareSprite: false
 requirements: [
   cobalt/35
-  chormium/15
+  chromium/15
   lithium/10
   solenite/10
 ]
@@ -31,7 +31,7 @@ consumes: {
 research: core-helix
 researchCost: [
   cobalt/20
-  chormium/30
+  chromium/30
   lithium/40
   solenite/20
 ]
