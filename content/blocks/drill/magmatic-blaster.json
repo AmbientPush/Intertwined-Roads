@@ -1,0 +1,37 @@
+type: beamDrill
+size: 3
+category: production
+hasLiquids: true
+drillTime: 240
+hasPower: true
+tier: 3
+itemCapacity: 15
+optinalBoostIntensity: 2.5
+details: Boost: 1.6x
+squareSprite: false
+requirements: [
+  cobalt/35
+  chormium/15
+  lithium/10
+  solenite/10
+]
+
+consumes: {
+  power: 2
+  liquid: magma/0.016666665
+  liquids: {
+    liquids: [
+      hydrogen/0.03333332
+    ]
+    optional: true
+    booster: true
+  }
+}
+
+research: core-helix
+researchCost: [
+  cobalt/20
+  chormium/30
+  lithium/40
+  solenite/20
+]
