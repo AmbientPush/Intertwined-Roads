@@ -1,0 +1,10 @@
+color: 66C2FF //TODO
+
+explosiveness: 0.1
+flammability: 0.05
+heatCapacity: 0
+viscosity: 0.75
+temperature: 1
+blockReactive: false
+
+research: core-shard
