@@ -1,0 +1,9 @@
+type: Duct
+category: distribution
+speed: 5
+health: 50
+bridgeReplacement: cobalt-bridge
+requirements: [ cobalt/1 ]
+junctionReplacement: cobalt-junction
+research: { parent: core-helix }
+researchCost: [ lithium/5 ]

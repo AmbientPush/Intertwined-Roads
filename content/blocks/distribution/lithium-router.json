@@ -1,8 +1,0 @@
-type: DuctRouter
-size: 1
-health: 80
-requirements: [ lithium/3 ]
-category: distribution
-
-research: lithium-duct
-researchCost: [ lithium/15 ]

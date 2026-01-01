@@ -1,0 +1,7 @@
+type: DuctRouter
+size: 1
+health: 80
+requirements: [ cobalt/3 ]
+category: distribution
+research: cobalt-duct
+researchCost: [ cobalt/15 ]

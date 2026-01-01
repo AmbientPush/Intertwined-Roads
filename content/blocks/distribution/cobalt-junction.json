@@ -1,0 +1,8 @@
+type: Junction
+health: 75
+size: 1
+speed: 5
+requirements: [ cobalt/2 ]
+category: distribution
+research: cobalt-duct
+researchCost: [ cobalt/10 ]

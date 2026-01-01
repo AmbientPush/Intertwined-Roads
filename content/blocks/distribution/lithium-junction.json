@@ -1,9 +1,0 @@
-type: Junction
-health: 75
-size: 1
-speed: 5
-requirements: [ lithium/2 ]
-
-category: distribution
-research: lithium-duct
-researchCost: [ lithium/10 ]
