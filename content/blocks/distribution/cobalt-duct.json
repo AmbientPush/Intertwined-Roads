@@ -5,5 +5,5 @@ health: 50
 bridgeReplacement: cobalt-bridge
 requirements: [ cobalt/1 ]
 junctionReplacement: cobalt-junction
-research: { parent: core-helix }
-researchCost: [ lithium/5 ]
+research: core-helix
+researchCost: [ cobalt/5 ]
