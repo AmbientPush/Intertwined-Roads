@@ -1,0 +1,10 @@
+color: FEFFF2
+
+explosiveness: 0
+flammability: 0.2
+heatCapacity: 0.5
+viscosity: 0.65
+temperature: 0.75
+blockReactive: true
+
+research: core-shard
