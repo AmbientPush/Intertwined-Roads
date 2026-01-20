@@ -1,3 +1,4 @@
 type: APLLargeFloor
 variants: 3
 largeVariants: 2
+rotateDraw: false
