@@ -13,6 +13,8 @@ arrows: 1
 squareSprite: false
 invertedTime: 150
 drillSoundVolume: 1
+arrowColor: E5776EFF
+baseArrowColor: 55082EFF
 
 requirements: [
   lithium/35
@@ -90,5 +92,3 @@ drillEffect: [
     } 
   ]
 }*/
-
-hidden: true
