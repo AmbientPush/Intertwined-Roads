@@ -4,13 +4,42 @@ category: crafting
 hasPower: true
 craftTime: 60
 outputItem: peat/1
-consumes: {}
+consumes: {
+  power: 0.2
+  liquid: nutrient-solution/0.2
+}
 requirements: [
   lithium/25
   solenite/30
 ]
-attribute: peat
+
+attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.1
 boostScale: 0.25
 maxBoost: 5
+
+drawer: {
+  type: DrawBlock
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: nutrient-solution
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
