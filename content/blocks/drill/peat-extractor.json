@@ -20,7 +20,7 @@ boostScale: 0.25
 maxBoost: 5
 
 drawer: {
-  type: DrawBlock
+  type: DrawMulti
   drawers: [
     {
       type: DrawRegion
