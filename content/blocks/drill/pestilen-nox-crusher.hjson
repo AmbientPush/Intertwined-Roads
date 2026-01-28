@@ -1,0 +1,23 @@
+type: WallCrafter
+health: 250
+size: 2
+category: production
+research: {
+  parent: core-helix
+}
+consumes: {
+  power: 0.166666666666
+  liquid: vyan/0.1
+}
+requirements: [
+  copper/1
+] //TODO
+researchCost: [
+  copper/1
+]
+drillTime: 90
+output: pestilen-nox-oddment
+attribute: sand
+ambientSound: loopDrill
+ambientSoundVolume: 0.04
+fogRadius: 2
