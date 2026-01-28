@@ -2,6 +2,8 @@ type: AttributeCrafter
 size: 2
 category: crafting
 hasPower: true
+squareSprite: false
+
 craftTime: 60
 outputItem: peat/1
 consumes: {
