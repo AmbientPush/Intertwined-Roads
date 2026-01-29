@@ -1,0 +1,24 @@
+type: Pump
+size: 3
+category: liquid
+squareSprite: false
+requirements: [
+  cobalt/15
+  chromium/30
+  lithium/15
+  solenite/5
+]
+hasPower: true
+
+pumpAmount: 0.166666667
+consumes: {
+  power: 0.5
+  liquid: hydrogen/0.05
+}
+
+research: core-helix
+researchCost: [
+  cobalt/5
+  chromium/10
+  lithium/5
+]
