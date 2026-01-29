@@ -21,7 +21,7 @@ consumes: {
   liquid: magma/0.016666665
   liquids: {
     liquids: [
-      hydrogen/0.03333332
+      vyan/0.03333332
     ]
     optional: true
     booster: true
@@ -31,7 +31,7 @@ consumes: {
 research: core-helix
 researchCost: [
   cobalt/20
-  chromium/30
-  lithium/40
-  solenite/20
+  chromium/5
+  lithium/5
+  solenite/5
 ]
