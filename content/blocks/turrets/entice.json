@@ -1,0 +1,176 @@
+type: ItemTurret
+category: turret
+health: 200
+size: 3
+
+requirements: [
+  lithium/69
+]
+description: Fires basic bullets at enemies.
+//TODO idfk, general stuff
+range: 200
+rotateSpeed: 4
+reload: 60
+xRand: 0
+
+recoil: 2
+inaccuracy: 3
+shootSound: shootBreach
+shootSoundVolume: 2
+
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 0
+  shots: 1
+  shotDelay: 0
+}
+
+ammoTypes: {
+  lithium: {
+    type: BasicBulletType
+    damage: 60
+    buildingDamageMultiplier: 0.1
+    speed: 3
+    lifetime: 70
+//    ammoMultiplier: 1
+    collidesTiles: true
+    pierceCap: 3
+    pierce: true
+
+    width: 12
+    height: 12
+    frontColor: 8FBF7A
+    backColor: 8FBF7A
+    trailColor: 8FBF7A
+
+//    sprite: //TODO?
+    trailLength: 8
+    trailWidth: 2.4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitEffect: [
+      {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        lifetime: 20
+        colorFrom: 8FBF7A
+        colorTo: 8FBF7A
+      }
+      {
+        type: ParticleEffect
+        particles: 10
+        lenFrom: 3
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 40
+        line: true
+        length: 30
+        colorFrom: 8FBF7A
+        colorTo: 8FBF7A
+      }
+    ]
+    despawnEffect: [
+      {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        lifetime: 20
+        colorFrom: 8FBF7A
+        colorTo: 8FBF7A
+      }
+      {
+        type: ParticleEffect
+        particles: 10
+        lenFrom: 3
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 40
+        line: true
+        length: 30
+        colorFrom: 8FBF7A
+        colorTo: 8FBF7A
+      }
+    ]
+  }
+}
+//TODO move this into bullet's code instead
+shootEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: ParticleEffect
+      cone: 10
+      interp: pow3Out
+      lifetime: 90
+      length: 80
+      sizeFrom: 1
+      sizeTo: 2
+      colorFrom: 8FBF7AAA
+      colorTo: 8FBF7A00
+      particles: 8
+    }
+  ]
+}
+
+
+drawer:{
+  type: DrawTurret
+  basePrefix: entice-
+  parts: [
+    {
+      type: RegionPart
+      mirror: false
+      outline: true
+      under: true
+      heatLayerOffset: 0
+      outlineLayerOffset: -0.01
+      moveX: 0
+      moveY: 0
+      suffix: -center
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -front-flap
+      mirror: true
+      outline: true
+      under: true
+      heatLayerOffset: 0.0000001
+      outlineLayerOffset: -0.01
+      moveX: 1.5
+      moveY: 1.5
+      moveRot: 0
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      mirror: true
+      under: true
+      suffix: -middle-flap
+      moveX: -1
+      moveY: -1
+      rot: 30
+      progress: recoil
+      outlineLayerOffset: -0.01
+      children: [
+        {
+          type: RegionPart
+          suffix: -back-flap
+          mirror: true
+          moveX: -1
+          moveY: -1
+          rot: 30
+          progress: recoil
+          outlineLayerOffset: -0.01
+        }
+      ]
+    }
+  ]
+}
