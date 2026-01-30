@@ -21,3 +21,4 @@ attribute: pestilen-nox-wall
 ambientSound: loopDrill
 ambientSoundVolume: 0.04
 fogRadius: 2
+squareSprite: false

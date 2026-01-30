@@ -3,7 +3,7 @@ size: 2
 category: crafting
 hasPower: true
 squareSprite: false
-
+fogRadius: 2
 craftTime: 60
 outputItem: peat/1
 consumes: {

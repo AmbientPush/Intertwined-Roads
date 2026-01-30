@@ -15,7 +15,7 @@ invertedTime: 150
 drillSoundVolume: 1
 arrowColor: E5776EFF
 baseArrowColor: 55082EFF
-
+fogRadius: 4
 requirements: [
   lithium/35
   solenite/25
