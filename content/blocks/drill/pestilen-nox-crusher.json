@@ -17,7 +17,7 @@ researchCost: [
 ]
 drillTime: 90
 output: pestilen-nox-oddment
-attribute: sand
+attribute: pestilen-nox-wall
 ambientSound: loopDrill
 ambientSoundVolume: 0.04
 fogRadius: 2
