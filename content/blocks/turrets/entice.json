@@ -18,19 +18,12 @@ inaccuracy: 3
 shootSound: shootBreach
 shootSoundVolume: 2
 
-shoot: {
-  type: ShootPattern
-  firstShotDelay: 0
-  shots: 1
-  shotDelay: 0
-}
-
 ammoTypes: {
   lithium: {
     type: BasicBulletType
     damage: 60
     buildingDamageMultiplier: 0.1
-    speed: 3
+    speed: 4
     lifetime: 70
 //    ammoMultiplier: 1
     collidesTiles: true
@@ -119,7 +112,7 @@ shootEffect: {
   ]
 }
 
-
+outlineColor: 1D0929FF
 drawer:{
   type: DrawTurret
   basePrefix: entice-
