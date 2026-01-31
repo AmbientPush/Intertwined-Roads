@@ -2,6 +2,7 @@ type: Pump
 size: 3
 category: liquid
 squareSprite: false
+fogRadius: 2
 requirements: [
   cobalt/15
   chromium/30

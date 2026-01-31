@@ -6,7 +6,17 @@ laserColor2: 7F4307FF
 category: power
 outputsPower: true
 consumesPower: true
-consumes: { powerBuffered: 500 }
-requirements: [ lithium/2, solenite/1 ]
+consumes: {
+  powerBuffered: 500
+}
+requirements: [
+  cobalt/2
+  lithium/2
+  solenite/1
+]
 research: core-helix
-researchCost: [ lithium/10, solenite/5 ]
+researchCost: [
+  cobalt/5
+  lithium/5
+  solenite/3
+]

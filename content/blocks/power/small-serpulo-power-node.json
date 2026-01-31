@@ -1,10 +1,16 @@
 type: PowerNode
 size: 1
-maxNodes: 2
+maxNodes: 7
 laserRange: 7
 laserColor1: DDB058FF
 laserColor2: 7F4307FF
 category: power
-requirements: [ lithium/4, solenite/2 ]
+requirements: [
+  cobalt/2
+  lithium/2
+]
 research: small-rail-power-node
-researchCost: [ lithium/20, solenite/10 ]
+researchCost: [
+  cobalt/5
+  lithium/5
+]
