@@ -1,0 +1,9 @@
+flammability: 0
+explosiveness: 0
+radioactivity: 0.5
+charge: 0
+hardness: 4
+color: 509AE8FF
+alwaysUnlocked: false
+research: core-shard
+//shownPlanets: []
