@@ -1,0 +1,36 @@
+type: ThermalGenerator
+size: 3
+health: 450
+fogRadius: 3
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8.9
+powerProduction: 0.2222222223
+squareSprite: false
+category: power
+research: core-helix
+requirements: [
+  cobalt/15
+  chromium/10
+  lithium/10
+]
+researchCost: [
+  cobalt/5
+  chromium/2
+  lithium/2
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+//group: liquids
