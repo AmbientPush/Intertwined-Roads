@@ -7,7 +7,7 @@ displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8.9
 powerProduction: 0.2222222223
-outputLiquid: steam/1
+outputLiquid: steam/0.037037038
 squareSprite: false
 category: power
 research: core-helix
