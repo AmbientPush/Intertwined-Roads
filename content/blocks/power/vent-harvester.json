@@ -7,6 +7,7 @@ displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8.9
 powerProduction: 0.2222222223
+outputLiquid: steam/1
 squareSprite: false
 category: power
 research: core-helix
@@ -23,6 +24,15 @@ researchCost: [
 drawer: {
   type: DrawMulti
   drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      alpha: 0.7
+      padding: 2
     {
       type: DrawRegion
       suffix: -rotator
