@@ -33,6 +33,7 @@ drawer: {
       drawLiquid: steam
       alpha: 0.7
       padding: 2
+    }
     {
       type: DrawRegion
       suffix: -rotator
