@@ -1,6 +1,6 @@
 type: GenericCrafter
 size: 2
-category: crafting
+category: production
 hasLiquids: true
 hasPower: true
 liquidCapacity: 40
