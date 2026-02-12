@@ -1,0 +1,59 @@
+type: GenericCrafter
+size: 3
+health: 500
+category: crafting
+research: core-helix
+itemCapacity: 15
+requirements: [
+  cobalt/20
+  chromium/15
+  lithium/20
+  solenite/10
+]
+craftTime: 120
+craftEffect: none //TODO
+outputItems: [
+  stellite-alloy/6
+]
+consumes: {
+  items: [
+    cobalt/4
+    chromium/2
+    peat/1
+  ]
+  power: 2
+}
+/*drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+     type: DrawRegion
+     suffix: -bottom
+    }
+    {
+     type: DrawFlame
+     suffix: -top
+     lightRadius: 0
+     lightAlpha: 0
+     lightSinScl: 0
+     lightSinMag: 0
+     flameRadius: 0
+     flameRadiusIn: 0
+     flameRadiusScl: 0
+     flameRadiusMag: 0
+     flameRadiusInMag: 0
+    }
+    {
+     type: DrawCrucibleFlame
+     particleRad: 12
+     particleSize: 2.5
+    }
+    {
+     type: DrawDefault
+    }
+  ]
+}*/
+fogRadius: 4
+ambientSound: loopSmelter
+ambientSoundVolume: 0.24
+squareSprite: false
