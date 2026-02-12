@@ -11,7 +11,9 @@ requirements: [
   solenite/10
 ]
 craftTime: 120
-craftEffect: none //TODO
+craftEffect: {
+   //TODO
+}
 outputItems: [
   stellite-alloy/6
 ]
