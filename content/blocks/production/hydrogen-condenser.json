@@ -6,6 +6,19 @@ hasPower: true
 liquidCapacity: 40
 craftTime: 60
 outputLiquid: hydrogen/0.03333333
-consumes: {}
-requirements: [ lithium/25, solenite/30 ]
+requirements: [
+  cobalt/12
+  chromium/5
+  lithium/10
+  solenite/25
+]
 conductivePower: true
+consumes: {
+  liquids: {
+    liquids: [
+      hydrogen/0
+    ]
+    optional: true
+    booster: false
+  }
+}
